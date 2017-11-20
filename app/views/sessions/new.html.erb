@@ -1,0 +1,28 @@
+<h1>Sign In</h1>
+<h2>Welcome you are in sign in page</h2>
+
+
+<%= form_tag sessions_path do %>
+
+<div class="text-center">
+
+<div>
+	<h3>
+	<%= label_tag 'email', 'Email' %><br/>
+	<%= text_field_tag 'email' %>
+   </h3>
+
+</div>
+
+<div>
+	<h3>
+	<%= label_tag 'password', 'password' %><br/>
+	<%= password_field_tag 'password' %>
+   </h3>
+
+</div>
+<h3>
+<%= submit_tag 'login' %>
+</h3>
+</div>
+<% end %>
