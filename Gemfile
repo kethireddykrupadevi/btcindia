@@ -53,7 +53,7 @@ end
 
 
 group :development do
-gem 'capistrano', '~> 3.10'
+gem 'capistrano', '~> 3.10.0'
 gem 'capistrano-rails', '~> 1.3'
 gem 'capistrano-rbenv', '~> 2.1', '>= 2.1.3'
 
