@@ -23,8 +23,8 @@ set :deploy_to, "/home/deploy/btcindia"
 # Default value for :linked_files is []
 # append :linked_files, "config/database.yml", "config/secrets.yml"
 
-set :linked_files, "config/database.yml", "config/secrets.yml"
-set :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "vendor/bundle", "public/system", "public/uploads"
+append :linked_files, "config/database.yml", "config/secrets.yml"
+append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "vendor/bundle", "public/system", "public/uploads"
 
 
 # Default value for linked_dirs is []
